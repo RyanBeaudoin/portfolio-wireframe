@@ -18,7 +18,6 @@ body {
   height: 165px;
   width: 75px;
   line-height: 130px;
-  position: relative;
   display: inline-block;
 }
 
@@ -27,7 +26,6 @@ body {
   height: 210px;
   width: 130px;
   line-height: 175px;
-  position: relative;
   display: inline-block;
   margin: 0 0 15px 15px;
 }
@@ -50,4 +48,60 @@ body {
 .contact {
   height: 100px;
   line-height: 90px;
+}
+
+.project-description {
+  display: none;
+}
+
+@media only screen and (min-device-width : 1000px) {
+  .heading {
+    position: relative;
+    top: 125px;
+    right: 150px;
+  }
+
+  .phone-img {
+    position: relative;
+    left: 100px;
+    bottom: 25px;
+  }
+
+  .nav-links {
+    position: relative;
+    left: 100px;
+    bottom: 25px;
+  }
+
+  .projects {
+    height: 200px;
+  }
+
+  .projects h2 {
+    position: relative;
+    right: 300px;
+  }
+
+  .image {
+    position: relative;
+    top: 8px;
+    right: 160px;
+  }
+
+  .project-description {
+    border: solid 1px black;
+    max-width: 300px;
+    height: 125px;
+    line-height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 120px;
+    left: 180px;
+    display: block;
+  }
+
+  .contact {
+    height: 100px;
+  }
 }
